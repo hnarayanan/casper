@@ -98,6 +98,7 @@ Mastodon verification link and hides reading times, post-header excerpts
 and Ghost branding.
 
 In Ghost, set **Feed layout** to **Grid** and **Post image style** to **Hidden**.
-Posts without images use the standard grid layout.
+In `partials/post-card.hbs`, posts without feature images use Casper's large-row
+layout on the homepage and paginated listings; image posts keep the grid layout.
 
 Search uses Ghost's defaults; Metroplex handles deployment.
